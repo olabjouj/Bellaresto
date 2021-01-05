@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+  }
+  
+header {
+    height: 100px;
+  }
+.tete-page{
+    text-align: center;
+}
+.accueil{
+    width: 100%;
+    height: 590px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 29px;
+    align-content: flex-end;
+    justify-content: space-between;
+    font-family: Montserrat;
+    line-height: 73px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.Food2{
+    position: absolute;
+    left: 9.75%;
+    right: 9.85%;
+    top: 15.56%;
+    bottom: 5.56%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 150px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+.Food{
+    position: absolute;
+    left: 44.08%;
+    right:44.08%;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #f3eded;
+}
+#home{
+    color:#FA4A0C;
+}
+.Information{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: minmax(100px,auto);
+}
+.Ingredient{
+    display: grid;
+   
+}
+.quantites2{
+    display: grid;
+}
+
+#commande{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:minmax(100px,auto) ;
+    grid-column-gap: 40px;
+
+}
+
+
+#cercle1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #3751FF;
+    margin: 10px;
+    border: 1.7px solid #FFFFFF;
+    
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+#cercle2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: ;
+    margin: 10px;
+
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+border: 2px solid #C5C7CD;
+box-sizing: border-box;
+}
+.cercle1{
+    display: flex;
+}
+.cercle2{
+    display: flex;
+}
+h1{
+    margin:10px
+}
+form{
+    margin:20px;
+}
+.supplement{
+    display: flex;
+    margin:20px;
+    justify-content: space-between;
+}
+section{
+    margin:20px;
+}
+.Boisson-Dessert{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#carre {
+    height: 20px;
+    width: 20px;
+    background:#C4C4C4;
+  
+}
+.carre{
+    height: 20px;
+    width: 20px;
+   
+  
+
+}
+.B{
+    display: flex;
+}
+.Pizza4{
+    left: 61.94%;
+    right: 11.67%;
+    top: 41.34%;
+    bottom: 57.08%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+.supp{
+    left: 4.93%;
+right: 68.68%;
+top: 43.09%;
+bottom: 55.33%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.1px;
+color: #000000;
+}
+#SFrites{
+ left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+background: #3751FF;
+}
+.Afrites{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #3751FF;
+}
+.frites input{
+    width: 5%;
+    height: 20px;
+}
+ 
+.Boissons{
+    display: flex;
+    flex-direction: column;
+}
+.F{
+    display: flex;
+}
+
+/* Show the checkmark when checked */
+.carre input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .carre .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

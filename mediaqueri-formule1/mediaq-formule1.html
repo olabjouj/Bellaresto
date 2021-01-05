@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon menu-Pizza-Burgers-Salades</title>
+    <link href="css-formulaire.css" rel="stylesheet" type="text/css" />
+    <link href="phon-mediaq.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header id="header">
+        <img class="img" src="Bella Olonje logo 111 1.png" />
+        <div class="menu">
+            <a id="home">Home</a>
+            <a href="#pizza">Pizza</a>
+            <a href="#burger">Burger</a>
+            <a href="#salade">Salade</a>
+            <a>Contact</a>
+        </div>
+    </header>
+    <div class="tete-page">
+        <h3 class="Food">Food app</h3>
+        <img class="accueil" src="accueil.png" />
+        <p class="Food2">Chez Bella <br />chaque désir s'aditionne.</p>
+
+    </div>
+
+    <form>
+        <h1>Vos informations</h1>
+        <section class="Information">
+
+            <div class="Inf1">
+                <label for="name">Nom </label><br />
+                <input class="input" type="text" id="name" name="user_name" placeholder="Nom">
+            </div>
+            <div class="Inf2">
+                <label for="phone">tel </label><br />
+                <input class="input" type="tel" name="phone" placeholder="Téléphone">
+            </div>
+
+            <div class="Inf3">
+                <label for="Firstname">Prenom </label><br />
+                <input class="input" type="text" id="name" name="user_name" placeholder="Prénom">
+            </div>
+            <div class="Inf4">
+                <label for="mail">e-mail </label><br />
+                <input class="input" type="email" id="mail" name="user_mail" placeholder="Mail">
+            </div>
+        </section>
+
+        <hr>
+        <h1>Votre Commande</h1>
+        <section class="Commande">
+
+            <div class="supplement">
+                <p class="supp">Supplements</p>
+                <p class="Pizza4">Pizza 4 fromage</p>
+            </div>
+            <Section id="commande">
+                <div class=Ingredient>
+                    <label for="pet-select">Ingrédient1:</label><br />
+                    <select name="pets" id="pet-select">
+                        <option value="" class="fromage">Fromage</option>
+                    </select>
+                    <br />
+                    <label for="pet-select">Ingrédient2:</label><br />
+                    <select name="pets" id="pet-select">
+                        <option value="" class="fromage">Fromage</option>
+                        <br />
+                    </select>
+                    <label for="pet-select">Ingrédient3:</label><br />
+                    <select name="pets" id="pet-select">
+                        <option value="" class="fromage">Fromage</option>
+                    </select>
+
+                    <br />
+                    <label for="pet-select">Ingrédient4:</label><br />
+                    <select name="pets" id="pet-select">
+                        <option value="" class="fromage">Fromage</option>
+                    </select>
+
+                </div>
+                <div class="quantites">
+                    <section class="quantites2">
+                        <div>
+                            <label for="numberQuantite">Quantites :</label><br />
+                            <input type="number" id="pet-select" placeholder="1">
+                        </div><br />
+                        <div>
+                            <label for="numberQuantite">Quantites:</label><br />
+                            <input type="number" id="pet-select" placeholder="1">
+                        </div><br />
+                        <div>
+                            <label for="numberQuantite">Quantites:</label><br />
+                            <input type="number" id="pet-select" placeholder="1">
+                        </div><br />
+                        <div>
+                            <label for="numberQuantite">Quantites :</label><br />
+                            <input type="number" id="pet-select" placeholder="1">
+                        </div><br />
+                    </section>
+                </div>
+            </Section>
+            <div class="frites">
+                <div>
+                    <input type="radio" checked="checked" id="AFrites" name="Frites" value="A Frites">
+                    <label for="">Avec Frites</label>
+                    <span class="checkmark"></span>
+                </div>
+
+                <div>
+                    <input type="radio" id="SFrites" name="Frites" value="S Frites">
+                    <label for="Sans Frites">Sans Frites</label>
+                </div>
+            </div>
+
+
+            <section class="Boisson-Dessert">
+                <div class=Boissons>
+                    <h1>Boissons</h1>
+                    <div Class="F">
+                        <label class="carre">Coca-Cola
+                            <span class="checkmark"></span>
+                            <input type="checkbox" checked="checked">
+                        </label>
+                        <select name="pets" id="pet-select">
+                            <option value="" class="L'eau">1</option>
+                        </select>
+                    </div>
+                    <label class="carre">Fanta
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <select name="pets" id="pet-select">
+                        <option value="" class="L'eau">1</option>
+                    </select>
+
+                    <label class="carre">L'Eau
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <select name="pets" id="pet-select">
+                        <option value="" class="L'eau">1</option>
+                    </select>
+                </div>
+                <div class="Desserts">
+                    <h1>Desserts</h1>
+                    <div class="B">
+                        <label class="carre">Tiramisu
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <select name="pets" id="pet-select">
+                            <option value="" class="L'eau">1</option>
+                        </select>
+                    </div>
+                    <div class="B">
+                        <label class="carre">Cheese-Cake
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <select name="pets" id="pet-select">
+                            <option value="" class="L'eau">1</option>
+                        </select>
+                    </div>
+                    <div class="B">
+                        <label class="carre">Tarte au fraise
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <select name="pets" id="pet-select">
+                            <option value="" class="L'eau">1</option>
+                        </select>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+    </form>
+</body>

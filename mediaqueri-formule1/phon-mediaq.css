@@ -1,0 +1,120 @@
+@media screen and (max-width: 767px) {
+    #home{
+        color: #e9d042;
+    }
+    #header{
+        font-size: 10px ;
+    }
+    .Food{
+        font-size: small;
+    }
+    .Food2{
+        position: absolute;
+        left: 9.75%;
+        right: 9.85%;
+        top: 15.56%;
+        bottom: 5.56%;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 75px;
+        text-align: center; 
+        color: #FFFFFF;
+    }
+    .accueil{
+        width: 100%;
+        height: 190px;
+    }
+    .img{
+        height: 35px;
+    }
+
+    .Information{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr,1fr,1fr,1fr;
+     
+    }
+    .Inf1{
+        grid-column: 1;
+        font-size:20px;
+
+    }
+    .Inf2{
+        grid-row: 1;
+        font-size: 20px;
+
+    }
+    .Inf3{
+        grid-row: 3;
+        font-size: 20px;
+
+    }
+    .Inf4{
+        grid-row: 4;
+        font-size: 20px;
+    }
+    .input{
+        font-size: 20px;
+      border-color: darkmagenta;
+    }
+    .supplement{
+        display: flex;
+        margin:10px;
+        justify-content: space-between;
+
+    }
+    .supp{
+        left: 4.93%;
+    right: 68.68%;
+    top: 43.09%;
+    bottom: 55.33%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: crimson;
+    }
+    h1{
+        font-size: large;
+        color: darkblue;
+
+    }
+    .Pizza4{
+        font-size: 15px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: darkmagenta;
+    }
+    #commande{
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+        grid-template-rows: 1fr, 1fr;
+    
+    }
+    .Ingredient{
+        grid-column: 1;
+        grid-row: 1;
+
+    }
+    .quantites{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #pet-select{
+        border-color: darkmagenta;
+        font-size: large;
+    }
+    .frites input{
+        width: 5%;
+        height: 10px;
+    }
+    .frites label{
+        color: navy;
+    }
+}
