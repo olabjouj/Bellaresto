@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+  }
+  
+header {
+    height: 100px;
+  }
+.tete-page{
+    text-align: center;
+}
+.accueil{
+    width: 100%;
+    height: 590px;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    font-size: 29px;
+    align-content: flex-end;
+    justify-content: space-between;
+    font-family: Montserrat;
+    line-height: 73px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.Food2{
+    position: absolute;
+    left: 9.75%;
+    right: 9.85%;
+    top: 15.56%;
+    bottom: 5.56%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 150px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+.Food{
+    position: absolute;
+    left: 44.08%;
+    right:44.08%;
+    font-family: Montserrat, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #f3eded;
+}
+#home{
+    color:#FA4A0C;
+}
+.Contact{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-auto-rows: minmax(50px,auto);
+}
+.Objet{
+    display: grid; 
+
+}
+
+.form{
+    margin:30px;
+}
+
+.Mes{
+    width: 795px;
+}
+#message{
+    width: 795px;
+}
+.envoyer{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 16px 32px;
+
+position: static;
+left: 0.28%;
+right: 0.28%;
+top: 0%;
+bottom: 0%;
+
+background: #2a76ce;
+box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+border-radius: 30px;
+
+
+
+color: #FFFFFF;
+    
+}
+.Inforrmation{
+
+    display: grid;
+}

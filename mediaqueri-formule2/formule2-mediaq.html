@@ -1,1 +1,82 @@
-fghntrmo
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mon menu-Pizza-Burgers-Salades</title>
+    <link href="../mediaqueri-formule2/formulaire2.css" rel="stylesheet" type="text/css" />
+    <link href="phone-for2-mediaq.css" rel="stylesheet" type="text/css" />
+    <link href="tablette-for2.css" rel="stylesheet" type="text/css" />
+    <link href="laptop-for2.css" rel="stylesheet" type="text/css" />
+    <link href="desctop-for2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header id="header">
+        <img class="img" src="Bella Olonje logo 111 1.png" />
+        <div class="menu">
+            <a id="home">Home</a>
+            <a href="#pizza">Pizza</a>
+            <a href="#burger">Burger</a>
+            <a href="#salade">Salade</a>
+            <a>Contact</a>
+        </div>
+    </header>
+    <div class="tete-page">
+        <h3 class="Food">Food app</h3>
+        <img class="accueil" src="accueil.png" />
+        <p class="Food2">Chez Bella <br />chaque désir s'aditionne.</p>
+
+    </div>
+    <form class="form">
+        <h1>Nous contacter</h1>
+        <section class="Contact">
+            <div class="Cont1">
+                <label for="name">Nom </label><br />
+                <input type="text" id="name" name="user_name" placeholder="Nom">
+            </div>
+            <div class="Cont2">
+                <label for="Firstname">Prenom </label><br />
+                <input type="text" id="name" name="user_name" placeholder="Prénom">
+            </div>
+            <div class="Cont3">
+                <label for="phone">Télephone </label><br />
+                <input type="tel" name="phone" placeholder="Téléphone">
+            </div>
+            <div class="Cont4">
+                <label for="mail">E-mail </label><br />
+                <input type="email" id="mail" name="user_mail" placeholder="Mail">
+            </div>
+            <div class="Cont5">
+                <label for="sociéte">Sociéte </label><br />
+                <input type="text" id="sociéte" name="sociéte" placeholder="sociéte">
+            </div>
+            <div class="Cont6">
+                <label for="Fonction">Fonction </label><br />
+                <input type="text" id="Fonction" name="Fonction" placeholder="Fonction">
+            </div>
+        </section>
+        <br />
+        <label class="file" for="avatar">Chose your file</label>
+
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+        <br />
+        <br />
+        <section class="Objet">
+
+            <label  class="Ob"for="pet-select">Objet</label>
+            <select name="pets" class="Mes" id="pet-select" >
+                <option value="" class="Objet">Objet</option placeholder="Objet">
+            </select>
+
+
+            <label for="Message">Message</label>
+
+            <textarea id="message" name="message" rows="5" cols="33" placeholder="Message"></textarea>
+
+            <img class="afpa"src="afpa.png" usemap="#reg">
+            <map name="reg"></map>
+        </section>
+        <input class="envoyer" type="submit" value="Envoyer">
+    </form>
