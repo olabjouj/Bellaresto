@@ -151,9 +151,7 @@ section{
   
 
 }
-.B{
-    display: flex;
-}
+
 .Pizza4{
     left: 61.94%;
     right: 11.67%;
@@ -205,9 +203,7 @@ background: #3751FF;
     display: flex;
     flex-direction: column;
 }
-.F{
-    display: flex;
-}
+
 
 /* Show the checkmark when checked */
 .carre input:checked ~ .checkmark:after {

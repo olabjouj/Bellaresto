@@ -117,4 +117,18 @@
     .frites label{
         color: navy;
     }
+    .Boisson-Dessert{
+        display: grid;
+        grid-template-columns: 1fr ,1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .Boissons{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .Desserts{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
 }
