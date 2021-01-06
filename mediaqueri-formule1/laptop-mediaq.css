@@ -1,0 +1,183 @@
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+        #home{
+            color: darkgreen;
+        }
+        #header{
+            font-size: 25px ;
+        }
+        .Food{
+            font-size: large;
+        }
+        .Food2{
+            position: absolute;
+            left: 9.75%;
+            right: 9.85%;
+            top: 15.56%;
+            bottom: 5.56%;
+            
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 49px;
+            line-height: 75px;
+            text-align: center; 
+            color: #FFFFFF;
+        }
+        .accueil{
+            width: 100%;
+            height: 490px;
+        }
+        .img{
+            height: 65px;
+        }
+    
+        .Information{
+            display: grid;
+            grid-template-columns: 1fr, 1fr;
+            grid-template-rows: 1fr,1fr,1fr,1fr;
+         
+        }
+        .Inf1{
+            grid-column: 1;
+            font-size:25px;
+    
+        }
+        .Inf2{
+            grid-column: 2;
+            grid-row: 1;
+            font-size: 25px;
+    
+        }
+        .Inf3{
+            grid-column: 1;
+            grid-row: 2;
+            font-size: 25px;
+    
+        }
+        .Inf4{
+            grid-column: 2;
+            grid-row: 2;
+            font-size: 25px;
+        }
+        .input{
+            font-size: 30px;
+          border-color: rgb(101, 12, 112);
+        }
+        .supplement{
+            display: flex;
+            margin:15px;
+            justify-content: space-between;
+    
+        }
+        .supp{
+            left: 4.93%;
+        right: 68.68%;
+        top: 43.09%;
+        bottom: 55.33%;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        color: rgb(107, 194, 26);
+        }
+        h1{
+            font-size: x-large;
+            color: rgb(7, 78, 69);
+    
+        }
+        .Pizza4{
+            font-size: 20px;
+            line-height: 36px;
+            letter-spacing: 0.1px;
+            color: rgb(14, 30, 104);
+        }
+        #commande{
+            display: grid;
+            grid-template-columns: 1fr, 1fr;
+            grid-template-rows: 1fr, 1fr;
+        
+        }
+        .Ingredient{
+            grid-column: 1;
+            grid-row: 1;
+    
+        }
+        .quantites{
+            grid-column: 2;
+            grid-row: 1;
+        }
+        #pet-select{
+            border-color: rgb(158, 12, 177);
+            font-size: large;
+        }
+        .frites input{
+            width: 5%;
+            height: 20px;
+        }
+        .frites label{
+            color: rgb(158, 12, 177);
+        }
+        .Boisson-Dessert{
+            display: grid;
+            grid-template-columns: 1fr ,1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .Boissons{
+            grid-column: 1;
+            grid-row: 1;
+        }
+        .Desserts{
+            grid-row: 1;
+            grid-column: 2;
+        }
+        .Adresse{
+            display: grid;
+            grid-template-columns: 1fr, 1fr;
+            grid-template-rows: 1fr,1fr,1fr,1fr;
+         
+        }
+        .Inf5{
+            grid-column: 1;
+            grid-row: 3;
+            font-size:25px;
+    
+        }
+        .Inf6{
+            grid-column: 2;
+            grid-row: 3;
+            font-size:25px;
+    
+        }
+        .Inf7{
+            grid-column: 1;
+            grid-row: 4;
+            font-size:25px;
+    
+        }
+        .Inf8{
+            grid-column: 2;
+            grid-row: 4;
+            font-size:25px;
+    
+        }
+        .envoyer{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 13px 28px;
+            
+            position: relative;
+            left: 70%;
+            right: 0.28%;
+            top: 0%;
+            bottom: 0%;
+            
+            background: rgb(141, 22, 156);
+            box-shadow: 0px 10px 30px rgba(233, 206, 203, 0.2);
+            border-radius: 30px;
+            
+            }
+}
