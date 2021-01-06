@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 991px) {
         #home{
-            color: blueviolet;
+            color: darkblue;
         }
         #header{
             font-size: 20px ;
@@ -95,6 +95,7 @@
         h1{
             text-align: left;
             font-size: x-large;
+            color: midnightblue;
         }
         .ap{
             font-size: x-large;
@@ -132,12 +133,15 @@
             section div{
                 display: flex;
                 flex-direction: column;
-                border: 3px solid blueviolet;
+                border: 3px solid rgb(59, 108, 243);
                 box-sizing: border-box;
                 padding:25px;
                 
             }
             button{
-                background-color: blueviolet;
+                background-color: rgb(28, 76, 209);
+            }
+            h3{
+                color: midnightblue;
             }
     }

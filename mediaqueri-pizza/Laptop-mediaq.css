@@ -1,7 +1,7 @@
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     #home{
-        color: #0daf51;
+        color: #a92dc2;
     }
     #header{
         font-size: 27px ;
@@ -109,6 +109,7 @@
     h1{
         text-align: left;
         font-size: xx-large;
+        color: purple;
     }
     .ap{
         font-size: xx-large;
@@ -146,13 +147,16 @@
         section div{
             display: flex;
             flex-direction: column;
-            border: 3px solid #0daf51;
+            border: 3px solid #b426b9;
             box-sizing: border-box;
             padding:25px;
             
         }
         button{
-            background: #0daf51;
+            background: #701364;
 
+        }
+        h3{
+            color: purple;
         }
 }
