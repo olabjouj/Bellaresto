@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
     #home{
-        color: #e9d042;
+        color: forestgreen;
     }
     #header{
         font-size: 10px ;
@@ -58,7 +58,7 @@
     }
     .input{
         font-size: 20px;
-      border-color: darkmagenta;
+      border-color: forestgreen;
     }
     .supplement{
         display: flex;
@@ -82,14 +82,14 @@
     }
     h1{
         font-size: large;
-        color: darkblue;
+        color: rgb(7, 85, 7);
 
     }
     .Pizza4{
         font-size: 15px;
         line-height: 36px;
         letter-spacing: 0.1px;
-        color: darkmagenta;
+        color: rgb(19, 146, 19);
     }
     #commande{
         display: grid;
@@ -107,15 +107,17 @@
         grid-row: 2;
     }
     #pet-select{
-        border-color: darkmagenta;
-        font-size: large;
+        border-color: forestgreen;
+        font-size: 15px;
+        height: 30px;
+
     }
     .frites input{
         width: 5%;
         height: 10px;
     }
     .frites label{
-        color: navy;
+        color: rgb(18, 107, 18);
     }
     .Boisson-Dessert{
         display: grid;
@@ -168,10 +170,16 @@
         top: 0%;
         bottom: 0%;
         
-        background: indigo;
+        background: rgb(4, 61, 4);
         box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
         border-radius: 30px;
         
         }
-
+       
+.Ingredient label{
+    font-size: 20px;
+}
+.quantites label{
+    font-size: 20px;
+}
 }

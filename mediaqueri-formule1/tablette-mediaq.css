@@ -57,7 +57,7 @@
         font-size: 25px;
     }
     .input{
-        font-size: 25px;
+        font-size: 20px;
       border-color: darkblue;
     }
     .supplement{
@@ -81,15 +81,15 @@
     color: rgb(10, 94, 109);
     }
     h1{
-        font-size: large;
-        color: darkred;
+        font-size: x-large;
+        color: rgb(28, 17, 173);
 
     }
     .Pizza4{
-        font-size: 15px;
+        font-size: 20px;
         line-height: 36px;
         letter-spacing: 0.1px;
-        color: darkred;
+        color: rgb(16, 62, 189);
     }
     #commande{
         display: grid;
@@ -108,14 +108,15 @@
     }
     #pet-select{
         border-color: darkblue;
-        font-size: medium;
+        font-size: 17px;
+        height: 30px;
     }
     .frites input{
         width: 5%;
         height: 15px;
     }
     .frites label{
-        color: rgb(9, 85, 22);
+        color: rgb(49, 49, 175);
     }
     .Boisson-Dessert{
         display: grid;
@@ -173,5 +174,12 @@
         border-radius: 30px;
         
         }
+        .Ingredient label{
+            font-size: 25px;
+        }
+        .quantites label{
+            font-size: 25px;
+        }
+       
 
 }
