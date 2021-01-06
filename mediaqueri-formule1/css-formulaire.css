@@ -252,3 +252,20 @@ border-radius: 30px;
     height: 20px;
 
 }
+.img-container{
+    position: relative;
+    height: 500px;
+    border: 10px solid black;
+}
+.img-container img{
+height: 100%;
+}
+.transition-img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+.transition-img:hover{
+    opacity: 1;
+}
